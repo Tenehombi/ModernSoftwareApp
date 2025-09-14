@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ModernSoftwareApp;
+
+Console.WriteLine("Hello from ModernSoftwareApp!");
+var calc = new Calculator();
+Console.WriteLine($"2 + 3 = {calc.Add(2, 3)}");
